@@ -1,0 +1,30 @@
+// File: animal.h
+// Purpose: Describes several characteristics about an animal.
+
+class Animal {
+  public:
+    Animal(std::string animal_name) //name of animal
+    //methods (public)
+    int getWeight() const; //find the weight of the animal
+    bool getLandSurvival() const; //find if the animal can survive on land
+    bool getWaterSurvival() const; //find if the animal can survive on water
+    bool getCarnivorous() const; //find if the animal eats meat
+    bool getHerbivorous() const; //find if the animal eats plants
+    bool getOmnivore() const; //find if the animal eats plants and meat
+    bool getAmphibious() const; //find if the animal survives on land and water
+
+    //variables (private)
+    int weight; //the weight
+    bool LandSurvival; //land survivability true/false
+    bool WaterSurvival; //water survivability true/false
+    bool Carnivorous; //meat eater true/false
+    bool Herbivorous; //plant eater true/fase
+
+    //modifiers (public)
+    void setWeight(int weight);
+    void setLandSurvival(bool LandSurvival);
+    void setWaterSurvival(bool WaterSurvival);
+    void setCarnivorous(bool Carnivorous);
+    void setHerbivorous(bool Herbivorous);
+
+}; 

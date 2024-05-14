@@ -1,0 +1,7 @@
+7 Polygon(s):  blue magenta olive orange pink teal yellow
+7 Quadrilateral(s):  blue magenta olive orange pink teal yellow
+2 Rectangle(s):  blue orange
+1 Square(s):  blue
+2 Shape(s) with all equal sides:  blue yellow
+2 Shape(s) with all equal angles:  blue orange
+3 Shape(s) with a right angle:  blue orange teal

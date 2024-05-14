@@ -1,0 +1,7 @@
+1. Added constructor to point.cpp
+2. Removed ": x_(x)" etc from point.cpp and point.h
+3. #include <algorithms> add to roads.cpp
+4. removed arguments inside acessors of point.h
+5. Added include guards to point.h
+
+After this it cant run with input_d.txt saying "Illegal instruction (core dumped)"
